@@ -2,12 +2,13 @@
 <html>
 <head>
 
-<title>PHP-Proxy</title>
+<title>hackblock</title>
 
 <meta name="generator" content="php-proxy.com">
 <meta name="version" content="<?=$version;?>">
 
 <style type="text/css">
+
 html body {
 	font-family: Arial,Helvetica,sans-serif;
 	font-size: 12px;
@@ -20,15 +21,15 @@ html body {
 }
 
 #error {
-	color:red;
+	color: Blue;
 	font-weight:bold;
 }
 
 #frm {
 	padding:10px 15px;
-	background-color:#FFC8C8;
+	background-color:#4286f4;
 	
-	border:1px solid #818181;
+	border:1px solid #214682;
 	
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
@@ -41,7 +42,6 @@ html body {
 	margin-top:35px;
 	clear:both;
 }
-</style>
 
 </head>
 
@@ -51,7 +51,7 @@ html body {
 <div id="container">
 
 	<div style="text-align:center;">
-		<h1 style="color:blue;">PHP-Proxy</h1>
+		<h1 style="color: black;">hackblock</h1>
 	</div>
 	
 	<?php if(isset($error_msg)){ ?>
@@ -80,11 +80,6 @@ html body {
 	</div>
 	
 </div>
-
-<div id="footer">
-	Powered by <a href="//www.php-proxy.com/" target="_blank">PHP-Proxy</a> <?php echo $version; ?>
-</div>
-
-
+	
 </body>
 </html>
